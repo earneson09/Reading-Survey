@@ -1,0 +1,91 @@
+<link rel="stylesheet" href="styles.css">
+<body>
+<main id="main">
+  <h1 id="title">Reading Survey</h1>
+  <p id="description">Help us understand your reading habits by filling out the survey below</p>
+    <div class="survey-box">
+      <form id="survey-form">
+        <div class="survey-text">
+          <label id="name-label"> Name 
+          </label>
+          <div>
+          <input class="form-control" id="name" type="text" placeholder="Name" size="50" position="relative" required>
+          </div>
+        </div>
+        <div>
+          <label id="email-label"> Email 
+          </label>
+          <div>
+          <input class="form-control" id="email" type="email" placeholder="Enter email address here" required></input>
+          </div>
+        </div>
+        <div>
+          <label id="number-label">Age
+          </label>
+          <div>
+          <input class="form-control" id="number" type="number" min="13" max="100" placeholder= "Age">
+          </input>
+          </div>
+        </div>
+        <div>
+          <label for="genre"> Genre
+          </label>
+          <div>
+            <select class="form-control" name="genre" id="dropdown" placeholder="genre">
+              <option disabled selected value> Which genre do you read most often?</option>
+              <option value="Fantasy/Sci-Fi">Fantasy/Sci-Fi</option>
+              <option value="Mystery/Thriller">Mystery/Thriller</option>
+              <option value="Young Adult">Young Adult</option>
+              <option value:"Classics">Classics</option>
+              <option value:"Modern Literature">Modern Literature</option>
+            </select>
+            </div>
+          </div>
+          <div>
+            <label for="books/week">How many books do you read in one week?></label> 
+            <div>
+              <label for="<1">
+              <input class="input-radio" id="<1" value="<1" type="radio" name="books/week"> <1
+              </label>
+              <label for="1">
+              <input class="input-radio" id="1" value= "1" type="radio" name="books/week">1
+              </label>
+              <label for="2">
+              <input class="input-radio" id="2" value="2" type="radio" name="books/week">2
+              </label>
+              <label for="3">
+              <input class="input-radio" id="3" value="3+" type="radio" name="books/week">3+
+              </label>
+              </div>
+          </div>
+          <div>
+            <label for="read-next">How do you choose what to read next?</label>
+              <div>
+              <label for="blurbs">
+              <input class="input-checkbox" name="read-next" type="checkbox" value="Blurbs">Blurbs
+              </label>
+              <label for="Cover Art">
+              <input class="input-checkbox" name="read-next" type="checkbox" value="cover-art">Cover Art
+              </label>
+              <label for="Author">
+              <input class="input-checkbox" name="read-next" type="checkbox" value="author">Author
+              </label>
+              <label for="Next in Series">
+              <input class="input-checkbox" name="read-next" type="checkbox" value="part-of-series">Next in Series
+              </label>
+              </div>
+          </div>
+          <div>
+          <label for="favorite-authors">List your favorite authors:</label>
+          <div>
+          <textarea class="input-textarea" name="favorite authors" rows="5" columns= "5"> 
+          </textarea>
+          </div>
+          </div>
+          <div>
+            <input id="submit" type="submit">
+          </div>
+      </form> 
+    </div>
+  </main>
+  </body>
